@@ -51,7 +51,7 @@ const App = () => {
     <div className={css.container}>
       <Description />
       <Options
-        state={initialState}
+        state={feedbackState}
         onLeaveFeedback={updateFeedback}
         onReset={resetFeedback}
         total={totalFeedback}
